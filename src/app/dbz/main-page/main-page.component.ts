@@ -19,5 +19,15 @@ export class MainPageComponent {
     }
   ];
 
+  nuevo: Personaje ={
+    nombre: '',
+    poder: 0
+  }
+
+  agregarNuevoPersonaje(arg: Personaje){
+    this.personajes.push(arg);
+  }
+
+
 
 }
